@@ -1,0 +1,38 @@
+body {
+    background-color: royalblue;
+    margin-top: 30px;
+    padding: 25px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    padding-top: 15px;
+    
+  }
+  
+  p {
+    font-family: Lato;
+    font-size: 20px;
+    
+    
+  }
+
+  p2 {
+    font-family: Lato;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+  }
+iframe {
+    position: relative;
+    left: 325px;
+    top: 100px;
+}
+button
+{
+  position: relative;
+  left: 325px;
+  top: 44px;
+}

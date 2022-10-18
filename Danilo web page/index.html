@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="visual.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Teste Brabo</title>
+    <script> 
+     function mostrarNome() {
+            var nome= document.getElementById("c_nome").value;
+            var snome= document.getElementById("c_snome").value;
+            alert("O seu nome é "+nome+" "+snome);
+        }
+        function mostraidade(){
+            var anoNasc = document.getElementById("anoNasc").value;
+            var idade = 2022 - parseInt(anoNasc);
+
+            alert("Você tem provavelmente "+idade+" anos.");
+        }
+    </script>   
+</head>
+<body>
+     digita aqui seu nome lindão
+    <INPUT TYPE="text"   ID="c_nome" />
+	<BR/>
+	Digite seu sobre nome:
+    <INPUT TYPE="text"   ID="c_snome" />
+    <INPUT TYPE="button" ID="b_nome" VALUE="E N T R A R"  onclick="mostrarNome()" />
+     Digite o ano que nasceu:
+    <input type="text" id="anoNasc"> <input type="button" value="Descobrir minha idade" onclick="mostraidade()">
+     <h1>Apenas aprendendo a mexer com sites</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eos itaque porro laborum corporis consequatur obcaecati atque sequi, rerum blanditiis debitis quibusdam perferendis dolores suscipit quia recusandae cupiditate? Sint, voluptatibus?</p>
+      <p2>Made by SnowzinHue</p2>
+
+      <iframe width="512" height="315" src="https://www.youtube.com/embed/J_BUiGz5s7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
